@@ -1,0 +1,20 @@
+{
+  "vars": ["a", "b", "y_1", "y_2", "y_3"],
+  "var_range": {
+    "a": "0<=a<1",
+    "b": "a<b<=1",
+    "y_1": "a<=y_1<=b",
+    "y_2": "a<=y_2<=b",
+    "y_3": "a<=y_3<=b"
+  },
+  "var_dist": {
+    "y_1": "Uniform(a,b)",
+    "y_2": "Uniform(a,b)",
+    "y_3": "Uniform(a,b)"
+  },
+  "condition": [
+    "y_1 + y_2 + y_3 >= 1"
+  ],
+  "quant": ["e", "a", "r", "r", "r"],
+  "ranges": [null, null, "b-a", "b-a", "b-a"]
+}

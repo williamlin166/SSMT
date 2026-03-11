@@ -1,0 +1,17 @@
+{
+  "vars": ["x", "y"],
+  "var_range": {
+    "x": null,
+    "y": "-x-6<=y<=x+6"
+  },
+  "var_dist": {
+    "y": "Uniform(-x-6,x+6)"
+  },
+  "condition": [
+    "-3 <= x",
+    "x <= 3",
+    "y <= x"
+  ],
+  "quant": ["e", "r"],
+  "ranges": [null, "2x+12"]
+}

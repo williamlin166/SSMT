@@ -1,0 +1,16 @@
+{
+  "vars": ["x", "y"],
+  "var_range": {
+    "x": "0 <= x <= 1",
+    "y": "0 <= y <= 1"
+  },
+  "var_dist": {
+    "y": "Uniform(0,1)"
+  },
+  "condition": [
+    "x>=1/2",
+    "y>=1/2"
+  ],
+  "quant": ["a", "r"],
+  "ranges": [null, 1]
+}

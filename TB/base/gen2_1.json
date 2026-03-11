@@ -1,0 +1,16 @@
+{
+  "vars": ["x", "y", "z"],
+  "var_range": {
+    "x": "0<=x<=10",
+    "y": "0<=y<=10",
+    "z": "0<=z<=10"
+  },
+  "var_dist": {
+    "z": "Uniform(0,10)"
+  },
+  "condition": [
+    "x + y >= z - 1"
+  ],
+  "quant": ["e", "a", "r"],
+  "ranges": [null, null, 10]
+}

@@ -1,0 +1,16 @@
+{
+  "vars": ["x", "y", "z"],
+  "var_range": {
+    "x": null,
+    "y": null,
+    "z": "0<=z<=1"
+  },
+  "var_dist": {
+    "z": "Uniform(0,1)"
+  },
+  "condition": [
+    "((z <= 1/2 && x + xy = x/3+2y/3 + xy) || (z > 1/2 && x + y + 2xy/3 = 2y+2xy/3))"
+  ],
+  "quant": ["e", "a", "r"],
+  "ranges": [null, null, 1]
+}

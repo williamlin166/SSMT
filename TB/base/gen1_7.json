@@ -1,0 +1,18 @@
+{
+  "vars": ["x", "y"],
+  "var_range": {
+    "x": null,
+    "y": "-3<=y<=3"
+  },
+  "var_dist": {
+    "y": "Uniform(-3,3)"
+  },
+  "condition": [
+    "-3 <= x",
+    "x <= 3",
+    "y <= x + 3",
+    "y <= -x + 3"
+  ],
+  "quant": ["e", "r"],
+  "ranges": [null, 6]
+}
