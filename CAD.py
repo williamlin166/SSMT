@@ -3,7 +3,7 @@ from parse_CAD import *
 from auxiliary_func import insert_empty_string
 from time_count import cumulative_timer
 
-app_id = "X326PW3KEJ"
+app_id = "" # replace this with your WolframAlpha API ID
 url = f"http://api.wolframalpha.com/v2/query"
 
 def is_valid_parentheses(s: str) -> bool:
