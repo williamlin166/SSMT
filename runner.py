@@ -38,7 +38,7 @@ def run_family(folder):
 
 
 def run_all():
-    for family in Path("testcases").iterdir():
+    for family in Path("TB").iterdir():
         if family.is_dir():
             print(f"\n=== Running family: {family.name} ===")
             run_family(family)
