@@ -190,8 +190,6 @@ If you use this implementation, please cite:
 
 ```bibtex
 @InProceedings{lin_et_al:LIPIcs.SAT.2026.24,
-  author    = {Lin, Jung-Cheng and Su,```bibtex
-@InProceedings{lin_et_al:LIPIcs.SAT.2026.24,
   author =	{Lin, Jung-Cheng and Su, Chia-Hsuan and Jiang, Jie-Hong R. and Unno, Hiroshi},
   title =	{{Exact Symbolic Reasoning for Nonlinear Stochastic SMT via Cylindrical Algebraic Decomposition}},
   booktitle =	{29th International Conference on Theory and Applications of Satisfiability Testing (SAT 2026)},
@@ -213,6 +211,9 @@ If you use this implementation, please cite:
 
 ## Paper
 
-The paper is available through the LIPIcs/Dagstuhl proceedings:
+**Exact Symbolic Reasoning for Nonlinear Stochastic SMT via Cylindrical Algebraic Decomposition**  
+Jung-Cheng Lin, Chia-Hsuan Su, Jie-Hong R. Jiang, and Hiroshi Unno  
+*29th International Conference on Theory and Applications of Satisfiability Testing (SAT 2026)*  
+Leibniz International Proceedings in Informatics (LIPIcs), Volume 377, Article 24, pp. 24:1--24:19, 2026.
 
-https://doi.org/10.4230/LIPIcs.SAT.2026.24
+DOI: https://doi.org/10.4230/LIPIcs.SAT.2026.24
